@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <label for="nome:">Nome</label>
+        <br>
+        <input type="text" id="nome" placeholder="Digite seu nome aqui" required>
+        <br>
+
+        <label for="e-mail">E-mail</label>
+        <br>
+        <input type="email" id="e-mail" placeholder="Digite seu e-mail aqui" required>
+        <br>
+    
+        <label for="descricao">Descrição</label>
+        <br>
+        <textarea name="texto" id="descricao" cols="30" rows="10" placeholder="Fale mais sobre você aqui..."></textarea>
+        <br>
+        <label for="modulo">Módulo</label>
+        <br>
+        <select name-="modulo" required id="modulo">
+            <option value="">Escolher módulo</option>
+            <option value="mod1">Módulo 1</option>
+            <option value="mod2">Módulo 2</option>
+            <option value="mod3">Módulo 3</option>
+        </select>
+
+        <br>
+        <label for="senha">Senha</label>
+        <br>
+        <input type="password" id="senha" placeholder="Digite sua senha aqui..." required>
+        <br>
+        <label for="confirmaSenha">Confirmar senha</label>
+        <br>
+        <input type="password" id="confirmaSenha" placeholder="Digite novamente sua senha aqui..." required>
+        <br>
+        <p>Deseja receber informações em seu e-mail?</p>
+        <br>
+        <label for="sim">Sim</label>
+        <input type="radio" name="inputEx">
+        <label for="nao">Não</label>
+        <input type="radio" name="inputEX">
+        <br>
+        <br>
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
